@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-10T23:51:43 EDT" name="Suite" finished-at="2022-07-10T23:52:21 EDT" duration-ms="38159">
+    <groups>
+    </groups>
+    <test started-at="2022-07-10T23:51:43 EDT" name="Validate Homepage Elements" finished-at="2022-07-10T23:52:04 EDT" duration-ms="21303">
+      <class name="allTests.HomePage">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:allTests.HomePage@165b8a71]" started-at="2022-07-10T23:51:43 EDT" name="driverSetup" finished-at="2022-07-10T23:52:00 EDT" duration-ms="17263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="validateLoginLink()[pri:0, instance:allTests.HomePage@165b8a71]" started-at="2022-07-10T23:52:00 EDT" name="validateLoginLink" finished-at="2022-07-10T23:52:04 EDT" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:allTests.HomePage@165b8a71]" started-at="2022-07-10T23:52:04 EDT" name="tearDown" finished-at="2022-07-10T23:52:04 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- allTests.HomePage -->
+    </test> <!-- Validate Homepage Elements -->
+    <test started-at="2022-07-10T23:51:43 EDT" name="Validate login Function" finished-at="2022-07-10T23:52:21 EDT" duration-ms="38158">
+      <class name="allTests.LoginPage">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:51:43 EDT" name="driverSetup" finished-at="2022-07-10T23:52:18 EDT" duration-ms="34816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="validateUserCred(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:52:19 EDT" name="validateUserCred" data-provider="getUserCredentials" finished-at="2022-07-10T23:52:19 EDT" duration-ms="582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCred -->
+        <test-method signature="validateUserCred(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:52:19 EDT" name="validateUserCred" data-provider="getUserCredentials" finished-at="2022-07-10T23:52:20 EDT" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[notrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCred -->
+        <test-method signature="validateUserCred(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:52:20 EDT" name="validateUserCred" data-provider="getUserCredentials" finished-at="2022-07-10T23:52:20 EDT" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parthasaha@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apple11@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCred -->
+        <test-method signature="validateUserCred(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:52:20 EDT" name="validateUserCred" data-provider="getUserCredentials" finished-at="2022-07-10T23:52:21 EDT" duration-ms="592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paramasaha@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apple14@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:allTests.LoginPage@94f6bfb]" started-at="2022-07-10T23:52:21 EDT" name="tearDown" finished-at="2022-07-10T23:52:21 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- allTests.LoginPage -->
+    </test> <!-- Validate login Function -->
+  </suite> <!-- Suite -->
+</testng-results>
