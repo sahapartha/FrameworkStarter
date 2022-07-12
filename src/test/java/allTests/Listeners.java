@@ -21,7 +21,9 @@ public class Listeners extends Base implements ITestListener {
 	ThreadLocal<ExtentTest> tests = new ThreadLocal<ExtentTest>();
 
 	public void onTestStart(ITestResult result) {
- 
+		methodName = result.getMethod().getMethodName();
+		test = extent.createTest(methodName);
+		tests.set(test);
 	}
 
 	public void onTestSuccess(ITestResult result) {
